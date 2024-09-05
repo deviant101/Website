@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academics</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body,
+        button,
+        input,
+        select,
+        optgroup,
+        textarea {
+            color: #404040;
+            font-family: sans-serif;
+            line-height: 1.5;
+            background: #fff;
+        }
+
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        .department-list{
+            padding-top: 3%;
+        }
+        .department-list>li {
+            margin-bottom: 20px;
+            font-size: 20px;
+        }
+
+        .course-list {
+            margin-left: 20px;
+        }
+
+        .course-list li {
+            margin-bottom: 10px;
+        }
+
+        .course-list a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .course-list a:hover {
+            font-size: 25px;
+        }
+
+        .menu-list-styling {
+            list-style: none;
+            display: flex;
+            padding-left: 270px;
+            padding-top: 28px;
+            padding-bottom: 28px;
+        }
+
+        .list-item-styling {
+            padding-right: 38px;
+            font-size: 20px;
+            text-decoration: none;
+            color: black;
+        }
+
+        .list-item-styling:hover {
+            color: blue;
+        }
+
+        .header-div {
+            height: 80px;
+            /* background-color: aquamarine; */
+            margin-left: 18%;
+            margin-right: 18%;
+            padding-bottom: 5px;
+        }
+
+        .logo-div {
+            height: 80px;
+            width: 250px;
+            /* background-color: aqua; */
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <div class="header-div">
+
+        <div class="logo-div">
+            <img src="assets/logo.png" alt="Logo" style="height: 80px;">
+        </div>
+
+        <div style="height: 80px;">
+            <ul class="menu-list-styling">
+                <li><a href="index.html" class="list-item-styling">Home</a></li>
+                <li><a href="academics.html" class="list-item-styling">Academics</a></li>
+                <li><a href="admission.html" class="list-item-styling">Admission</a></li>
+                <li><a href="about.html" class="list-item-styling">About</a></li>
+                <li><a href="gallery.html" class="list-item-styling">Gallery</a></li>
+                <li><a href="contact-us.html" class="list-item-styling">Contact Us</a></li>
+
+            </ul>
+        </div>
+
+    </div>
+    <!-- Body -->
+    <div style="margin-left: 20%; margin-right: 20%; padding-top: 2.5%;">
+        <h1>Academic Departments</h1>
+        <ul class="department-list">
+            <li>
+                <strong>Computer Science</strong>
+                <ul class="course-list">
+                    <li><a href="courses/pf.html">Programming Fundamentals</a></li>
+                    <li><a href="courses/dsa.html">Data Structures and Algorithms</a></li>
+                </ul>
+            </li>
+            <li>
+                <strong>Cyber Security</strong>
+                <ul class="course-list">
+                    <li><a href="courses/ns.html">Network Security</a></li>
+                    <li><a href="courses/eh.html">Ethical Hacking</a></li>
+                </ul>
+            </li>
+            <li>
+                <strong>Artificial Intelligence (AI)</strong>
+                <ul class="course-list">
+                    <li><a href="courses/ml.html">Machine Learning</a></li>
+                    <li><a href="courses/nn.html">Neural Networks</a></li>
+                </ul>
+            </li>
+            <li>
+                <strong>Software Engineering (SE)</strong>
+                <ul class="course-list">
+                    <li><a href="courses/wp.html">Web Programming</a></li>
+                    <li><a href="courses/fose.html">Fundamentals of Software Engineering</a></li>
+                </ul>
+            </li>
+            <li>
+                <strong>Data Science (DS)</strong>
+                <ul class="course-list">
+                    <li><a href="courses/nlp.html">Natural Language Processing</a></li>
+                    <li><a href="courses/dw.html">Data Warehousing</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            color: #404040;
+            font-family: sans-serif;
+            line-height: 1.5;
+            background: #fff;
+        }
+
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        .menu-list-styling {
+            list-style: none;
+            display: flex;
+            padding-left: 270px;
+            padding-top: 28px;
+            padding-bottom: 28px;
+        }
+
+        .list-item-styling {
+            padding-right: 38px;
+            font-size: 20px;
+            text-decoration: none;
+            color: black;
+        }
+
+        .list-item-styling:hover {
+            color: blue;
+        }
+
+        .header-div {
+            height: 80px;
+            /* background-color: aquamarine; */
+            margin-left: 18%;
+            margin-right: 18%;
+            padding-bottom: 5px;
+        }
+
+        .logo-div {
+            height: 80px;
+            width: 250px;
+            /* background-color: aqua; */
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="header-div">
+
+        <div class="logo-div">
+            <img src="assets/logo.png" alt="Logo" style="height: 80px;">
+        </div>
+
+        <div style="height: 80px;">
+            <ul class="menu-list-styling">
+                <li><a href="index.html" class="list-item-styling">Home</a></li>
+                <li><a href="academics.html" class="list-item-styling">Academics</a></li>
+                <li><a href="admission.html" class="list-item-styling">Admission</a></li>
+                <li><a href="about.html" class="list-item-styling">About</a></li>
+                <li><a href="gallery.html" class="list-item-styling">Gallery</a></li>
+                <li><a href="contact-us.html" class="list-item-styling">Contact Us</a></li>
+
+            </ul>
+        </div>
+
+    </div>
+
+    <div style="margin-left: 20%; margin-right: 20%; padding-top: 2.5%; text-align: center;">
+        <h1>Contact Us</h1>
+
+        <form style="padding-top: 30px; font-size: 25px;">
+            <label for="name">Name:</label>
+            <input type="text"name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email"name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" cols="30" required></textarea><br><br>
+
+            <input type="submit" value="Submit" style="padding: 15px; padding-top: 10px; padding-bottom: 10px;">
+        </form>
+    </div>
+</body>
+
+</html>
